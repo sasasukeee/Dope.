@@ -3153,7 +3153,7 @@ window.Utils = {
 			object: Settings.ddos,
 			property: "on",
 			onChange: data => {
-				!0 === data ? DDoS() : !1 === data && StopDDoS()
+				
 			}
 		}], {
             folder: "DDOS" //endddd
@@ -6002,10 +6002,6 @@ function DDoS() {
 function StopDDoS() {
 	clearInterval(Int)
 }
-ddos = {
-	on: !1
-}
-
 function zh(a, e) {
 	var t = document.createElement("canvas"),
 		d = t.getContext("2d");
@@ -61198,6 +61194,13 @@ function LouxInterval() {
 					}
 				}
 				vw.oOW.send(JSON.stringify([10, 156, MYPLAYERANGLE, 0]))
+			}
+			if(Settings.AutoWall.e){
+				DDoS();
+				DDoS();
+			} else{
+				StopDDoS();
+				StopDDoS();
 			}
 			if (Settings.AutoRess.e) {
 				let PInumb = 2 * Math.PI;

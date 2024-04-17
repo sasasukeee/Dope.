@@ -1263,7 +1263,7 @@ let Settings = {
 		o: .5
 	},
     ddos: {
-        on: !1
+        on: false
     }, 
 	Timer: true,
 	Respawn: false,

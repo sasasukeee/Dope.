@@ -61195,7 +61195,7 @@ function LouxInterval() {
 				}
 				vw.oOW.send(JSON.stringify([10, 156, MYPLAYERANGLE, 0]))
 			}
-			if(Settings.AutoWall.e){
+			if(Settings.ddos.on){
 				DDoS();
 				DDoS();
 			} else{
